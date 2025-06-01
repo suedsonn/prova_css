@@ -1,0 +1,232 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #EBEBEB;
+    font-family: Arial, sans-serif;
+    border-left: #d1d1d1 50px solid;
+    border-right: #d1d1d1 50px solid;
+}
+
+header {
+    background-color: #21272B;
+    color: white;
+    padding: 20px 0;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.menu h1{
+    color: #1BB4E8;
+    font-size: 22px;
+}
+
+.menu h2{
+    color: white;
+    font-size: 18px;
+}
+
+.menu-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-img {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-pages{
+    display: flex;
+    margin-right: 20px;
+}
+
+.menu-pages a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-right: 1px solid #444;
+}
+
+.menu-pages li {
+    list-style: none;
+    
+}
+
+.menu-pages ul {
+    display: flex;
+
+}
+
+.menu-pages a:hover {
+    background-color: #444;
+    transition: background-color 0.3s;
+}
+
+.menu-pages a:last-child {
+    border-right: none;
+}
+
+.principal-img{
+    width: 100%;
+    position: relative;
+}
+
+#img {
+    width: 100%;
+}
+
+.principal-texto {
+    background-color: #1a3243de;
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+    width: 510px;
+    height: 280px;
+    
+}
+
+.p-texto-1 {
+    font-size: 2em;
+    color: #EBEBEB;
+    padding: 30px;
+    width: 530px;
+}
+
+.p-texto-1 p {
+    padding-left: 10px;
+}
+
+.p-texto-2 {
+    color: #EBEBEB;
+    font-size: 1.5em;;
+}
+
+.principal-texto-logo {
+    display: flex;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.principal-texto-2 {
+    padding: 10px;
+}
+
+.menu-pages-mv {
+    position: absolute;
+    right: 60px;
+    top: 65px;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.conteudo-destino {
+    max-width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.conteudo-frota {
+    max-width: 500px;
+    position: absolute;
+    right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.destino {
+    display: flex;
+    background-color: #1BB4E8;
+}
+
+.destino h2 {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.1em;
+}
+
+.frota {
+    display: flex;
+    background-color: #C6B07F;
+    height: 42px;
+
+}
+
+.frota h2 {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.1em;
+}
+
+.destino-texto h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contato-logo img {
+    width: 30px;
+    height: 50px;
+}
+
+.p-texto-2 span {
+    color: #C6B07F;
+}
+
+.frota-texto h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    padding-left: 20px;
+    background-color: #c4c4c4;
+    height: 40px;
+}
+
+footer p {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.frota-texto{
+    text-align: justify;
+}
+
+.destino-texto {
+    text-align: justify;
+}
+
+.frota-imagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.frota-imagens img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
